@@ -7,7 +7,7 @@ const app = express();
 //     res.send('<h1>Hello World</h1>');
 // });
 
-app.use(userRouter);
+app.use('/api', userRouter);
 
 app.listen(8000, () => {
     console.log("Listening on port 8000...");
