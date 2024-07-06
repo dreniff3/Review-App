@@ -1,5 +1,5 @@
 const createUser = (req, res) => {
-    res.send('<h1>Check back later...</h1>')
+    res.json({ user: req.body });
 };
 
 export { createUser };
