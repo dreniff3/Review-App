@@ -7,6 +7,6 @@ router.route('/').get((req, res) => {
     res.send('<h1>Hello World</h1>');
 });
 
-router.route('/create-user').post(createUser);
+router.route('/create').post(createUser);
 
 export { router as userRouter };
